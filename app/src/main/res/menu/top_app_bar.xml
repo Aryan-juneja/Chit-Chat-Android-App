@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:contentDescription="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/baseline_search_24"
+        android:id="@+id/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:iconTint="@color/white"
+        app:searchViewStyle="@style/CustomSearchView"
+        >
+    </item>
+
+    <item
+        android:id="@+id/Details_update"
+        android:iconTint="@color/white"
+        android:title="Update Details"
+        android:contentDescription="Update Details"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/outline_emoji_emotions_24"
+        >
+    </item>
+    <item
+        android:id="@+id/toggle"
+        android:iconTint="@color/white"
+        android:title="Enable Dark Mode"
+        android:contentDescription="Update Details"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/outline_emoji_emotions_24"
+        >
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:iconTint="@color/white"
+        android:title="logout"
+        android:contentDescription="logout"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/baseline_logout_24"
+        >
+    </item>
+</menu>

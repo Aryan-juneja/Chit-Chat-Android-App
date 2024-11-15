@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhatsappClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WhatsappClone" parent="Base.Theme.WhatsappClone" />
+
+    <style name="splashTheme" parent="Theme.AppCompat">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">?attr/colorPrimaryDark</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">#FFFFFF</item>  <!-- Text color -->
+        <item name="android:textColorHint">#FFFFFF</item>  <!-- Hint text color -->
+        <item name="android:iconTint">#FFFFFF</item>  <!-- Icon color -->
+    </style>
+</resources>

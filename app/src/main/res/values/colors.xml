@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bottomBorderColor">#FF0000</color> <!-- Example: Red color -->
+    <color name="cyan">#3C7799</color>
+    <color name="blue">#1E40AF</color>
+</resources>

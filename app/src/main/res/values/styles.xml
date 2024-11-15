@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mssgSent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">22dp</item>
+        <item name="cornerSizeBottomLeft">22dp</item>
+        <item name="cornerSizeTopRight">22dp</item>
+        <item name="cornerSizeBottomRight">5dp</item>
+    </style>
+
+    <style name="mssgReceive">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">22dp</item>
+        <item name="cornerSizeBottomLeft">5dp</item>
+        <item name="cornerSizeTopRight">22dp</item>
+        <item name="cornerSizeBottomRight">22dp</item>
+    </style>
+
+    <style name="EditTextWithoutUnderline" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/transparent_background</item>
+    </style>
+</resources>

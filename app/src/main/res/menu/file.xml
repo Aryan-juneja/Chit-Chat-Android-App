@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Upload File"
+        android:contentDescription="Upload file"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/baseline_upload_file_24"
+        android:id="@+id/file"
+        android:iconTint="@color/white"
+        >
+    </item>
+<!--    <item-->
+<!--        android:title="Upload File"-->
+<!--        android:contentDescription="Upload file"-->
+<!--        app:showAsAction="ifRoom|collapseActionView"-->
+<!--        android:icon="@drawable/baseline_call_24"-->
+<!--        android:id="@+id/AudioCall"-->
+<!--        android:iconTint="@color/white"-->
+<!--        >-->
+<!--    </item>-->
+<!--    <item-->
+<!--        android:title="Upload File"-->
+<!--        android:contentDescription="Upload file"-->
+<!--        app:showAsAction="ifRoom|collapseActionView"-->
+<!--        android:icon="@drawable/baseline_video_call_24"-->
+<!--        android:id="@+id/videoCall"-->
+<!--        android:iconTint="@color/white"-->
+<!--        >-->
+<!--    </item>-->
+
+</menu>
